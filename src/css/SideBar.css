@@ -1,0 +1,69 @@
+.sidebar{
+    flex:0.35
+
+}
+
+.sidebar_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-right: 1px solid lightgray;
+    
+}
+
+.sidebar_headerRight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 10vw;
+}
+.sidebar_search{
+    display: flex;
+    height: 40px;
+    padding: 10px;
+    align-items: center;
+    background-color: #f6f6f6;
+    outline: none;
+}
+.sidebar_search_container{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 35x;
+    border-radius: 20px;
+
+}
+.sidebar_search_container > .MuiSvgIcon-root{
+    /* padding: 10px;
+    color: gray; */
+    margin-right: 2vw;
+    font-size: 24px !important;
+
+}
+.sidebar_search_container>input{
+    border: none;
+    margin-left: 10px;
+}
+.sidebar_chat{
+    background-color: white;
+    flex: 1;
+    overflow: scroll;
+}
+.sideBar_chat_whatsapp{
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #f6f6f6;
+}
+.sideBar_chat_whatsapp:hover{
+    background-color: #ebebeb;
+
+}
+.sideBar_chat_info > h2{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.sideBar_chat_info{
+    margin-left: 15px;
+}
